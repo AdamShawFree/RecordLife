@@ -1,0 +1,1162 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		841032BD298104A000193961 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 841032BC298104A000193961 /* AppDelegate.swift */; };
+		841032BF298104A000193961 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 841032BE298104A000193961 /* SceneDelegate.swift */; };
+		841032C1298104A000193961 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 841032C0298104A000193961 /* ViewController.swift */; };
+		841032C4298104A000193961 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 841032C2298104A000193961 /* Main.storyboard */; };
+		841032C6298104A200193961 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 841032C5298104A200193961 /* Assets.xcassets */; };
+		841032C9298104A200193961 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 841032C7298104A200193961 /* LaunchScreen.storyboard */; };
+		841032D4298104A200193961 /* RecordLifeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 841032D3298104A200193961 /* RecordLifeTests.swift */; };
+		841032DE298104A200193961 /* RecordLifeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 841032DD298104A200193961 /* RecordLifeUITests.swift */; };
+		841032E0298104A200193961 /* RecordLifeUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 841032DF298104A200193961 /* RecordLifeUITestsLaunchTests.swift */; };
+		841032E4298104A200193961 /* RecordLife WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 841032E3298104A200193961 /* RecordLife WatchKit App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		841032EA298104A200193961 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 841032E8298104A200193961 /* Interface.storyboard */; };
+		841032EC298104A300193961 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 841032EB298104A300193961 /* Assets.xcassets */; };
+		841032F2298104A400193961 /* RecordLife WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 841032F1298104A400193961 /* RecordLife WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		841032F7298104A400193961 /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 841032F6298104A400193961 /* InterfaceController.swift */; };
+		841032F9298104A400193961 /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 841032F8298104A400193961 /* ExtensionDelegate.swift */; };
+		841032FB298104A400193961 /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 841032FA298104A400193961 /* NotificationController.swift */; };
+		841032FD298104A400193961 /* ComplicationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 841032FC298104A400193961 /* ComplicationController.swift */; };
+		841032FF298104A500193961 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 841032FE298104A500193961 /* Assets.xcassets */; };
+		8410330B298104A500193961 /* RecordLife_WatchKit_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8410330A298104A500193961 /* RecordLife_WatchKit_AppTests.swift */; };
+		84103315298104A500193961 /* RecordLife_WatchKit_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84103314298104A500193961 /* RecordLife_WatchKit_AppUITests.swift */; };
+		84103317298104A500193961 /* RecordLife_WatchKit_AppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84103316298104A500193961 /* RecordLife_WatchKit_AppUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		841032D0298104A200193961 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 841032B12981049F00193961 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 841032B8298104A000193961;
+			remoteInfo = RecordLife;
+		};
+		841032DA298104A200193961 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 841032B12981049F00193961 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 841032B8298104A000193961;
+			remoteInfo = RecordLife;
+		};
+		841032E5298104A200193961 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 841032B12981049F00193961 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 841032E2298104A200193961;
+			remoteInfo = "RecordLife WatchKit App";
+		};
+		841032F3298104A400193961 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 841032B12981049F00193961 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 841032F0298104A400193961;
+			remoteInfo = "RecordLife WatchKit Extension";
+		};
+		84103307298104A500193961 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 841032B12981049F00193961 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 841032F0298104A400193961;
+			remoteInfo = "RecordLife WatchKit Extension";
+		};
+		84103311298104A500193961 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 841032B12981049F00193961 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 841032E2298104A200193961;
+			remoteInfo = "RecordLife WatchKit App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		8410331D298104A500193961 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				841032F2298104A400193961 /* RecordLife WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84103321298104A500193961 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				841032E4298104A200193961 /* RecordLife WatchKit App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		841032B9298104A000193961 /* RecordLife.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RecordLife.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		841032BC298104A000193961 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		841032BE298104A000193961 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		841032C0298104A000193961 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		841032C3298104A000193961 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		841032C5298104A200193961 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		841032C8298104A200193961 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		841032CA298104A200193961 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		841032CF298104A200193961 /* RecordLifeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RecordLifeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		841032D3298104A200193961 /* RecordLifeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordLifeTests.swift; sourceTree = "<group>"; };
+		841032D9298104A200193961 /* RecordLifeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RecordLifeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		841032DD298104A200193961 /* RecordLifeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordLifeUITests.swift; sourceTree = "<group>"; };
+		841032DF298104A200193961 /* RecordLifeUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordLifeUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		841032E3298104A200193961 /* RecordLife WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "RecordLife WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		841032E9298104A200193961 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		841032EB298104A300193961 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		841032F1298104A400193961 /* RecordLife WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "RecordLife WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		841032F6298104A400193961 /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
+		841032F8298104A400193961 /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
+		841032FA298104A400193961 /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
+		841032FC298104A400193961 /* ComplicationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComplicationController.swift; sourceTree = "<group>"; };
+		841032FE298104A500193961 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		84103300298104A500193961 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84103301298104A500193961 /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+		84103306298104A500193961 /* RecordLife WatchKit AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "RecordLife WatchKit AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8410330A298104A500193961 /* RecordLife_WatchKit_AppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordLife_WatchKit_AppTests.swift; sourceTree = "<group>"; };
+		84103310298104A500193961 /* RecordLife WatchKit AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "RecordLife WatchKit AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		84103314298104A500193961 /* RecordLife_WatchKit_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordLife_WatchKit_AppUITests.swift; sourceTree = "<group>"; };
+		84103316298104A500193961 /* RecordLife_WatchKit_AppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordLife_WatchKit_AppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		841032B6298104A000193961 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		841032CC298104A200193961 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		841032D6298104A200193961 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		841032EE298104A400193961 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84103303298104A500193961 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8410330D298104A500193961 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		841032B02981049F00193961 = {
+			isa = PBXGroup;
+			children = (
+				841032BB298104A000193961 /* RecordLife */,
+				841032D2298104A200193961 /* RecordLifeTests */,
+				841032DC298104A200193961 /* RecordLifeUITests */,
+				841032E7298104A200193961 /* RecordLife WatchKit App */,
+				841032F5298104A400193961 /* RecordLife WatchKit Extension */,
+				84103309298104A500193961 /* RecordLife WatchKit AppTests */,
+				84103313298104A500193961 /* RecordLife WatchKit AppUITests */,
+				841032BA298104A000193961 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		841032BA298104A000193961 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				841032B9298104A000193961 /* RecordLife.app */,
+				841032CF298104A200193961 /* RecordLifeTests.xctest */,
+				841032D9298104A200193961 /* RecordLifeUITests.xctest */,
+				841032E3298104A200193961 /* RecordLife WatchKit App.app */,
+				841032F1298104A400193961 /* RecordLife WatchKit Extension.appex */,
+				84103306298104A500193961 /* RecordLife WatchKit AppTests.xctest */,
+				84103310298104A500193961 /* RecordLife WatchKit AppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		841032BB298104A000193961 /* RecordLife */ = {
+			isa = PBXGroup;
+			children = (
+				841032BC298104A000193961 /* AppDelegate.swift */,
+				841032BE298104A000193961 /* SceneDelegate.swift */,
+				841032C0298104A000193961 /* ViewController.swift */,
+				841032C2298104A000193961 /* Main.storyboard */,
+				841032C5298104A200193961 /* Assets.xcassets */,
+				841032C7298104A200193961 /* LaunchScreen.storyboard */,
+				841032CA298104A200193961 /* Info.plist */,
+			);
+			path = RecordLife;
+			sourceTree = "<group>";
+		};
+		841032D2298104A200193961 /* RecordLifeTests */ = {
+			isa = PBXGroup;
+			children = (
+				841032D3298104A200193961 /* RecordLifeTests.swift */,
+			);
+			path = RecordLifeTests;
+			sourceTree = "<group>";
+		};
+		841032DC298104A200193961 /* RecordLifeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				841032DD298104A200193961 /* RecordLifeUITests.swift */,
+				841032DF298104A200193961 /* RecordLifeUITestsLaunchTests.swift */,
+			);
+			path = RecordLifeUITests;
+			sourceTree = "<group>";
+		};
+		841032E7298104A200193961 /* RecordLife WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				841032E8298104A200193961 /* Interface.storyboard */,
+				841032EB298104A300193961 /* Assets.xcassets */,
+			);
+			path = "RecordLife WatchKit App";
+			sourceTree = "<group>";
+		};
+		841032F5298104A400193961 /* RecordLife WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				841032F6298104A400193961 /* InterfaceController.swift */,
+				841032F8298104A400193961 /* ExtensionDelegate.swift */,
+				841032FA298104A400193961 /* NotificationController.swift */,
+				841032FC298104A400193961 /* ComplicationController.swift */,
+				841032FE298104A500193961 /* Assets.xcassets */,
+				84103300298104A500193961 /* Info.plist */,
+				84103301298104A500193961 /* PushNotificationPayload.apns */,
+			);
+			path = "RecordLife WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		84103309298104A500193961 /* RecordLife WatchKit AppTests */ = {
+			isa = PBXGroup;
+			children = (
+				8410330A298104A500193961 /* RecordLife_WatchKit_AppTests.swift */,
+			);
+			path = "RecordLife WatchKit AppTests";
+			sourceTree = "<group>";
+		};
+		84103313298104A500193961 /* RecordLife WatchKit AppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				84103314298104A500193961 /* RecordLife_WatchKit_AppUITests.swift */,
+				84103316298104A500193961 /* RecordLife_WatchKit_AppUITestsLaunchTests.swift */,
+			);
+			path = "RecordLife WatchKit AppUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		841032B8298104A000193961 /* RecordLife */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84103322298104A500193961 /* Build configuration list for PBXNativeTarget "RecordLife" */;
+			buildPhases = (
+				841032B5298104A000193961 /* Sources */,
+				841032B6298104A000193961 /* Frameworks */,
+				841032B7298104A000193961 /* Resources */,
+				84103321298104A500193961 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				841032E6298104A200193961 /* PBXTargetDependency */,
+			);
+			name = RecordLife;
+			productName = RecordLife;
+			productReference = 841032B9298104A000193961 /* RecordLife.app */;
+			productType = "com.apple.product-type.application";
+		};
+		841032CE298104A200193961 /* RecordLifeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84103325298104A500193961 /* Build configuration list for PBXNativeTarget "RecordLifeTests" */;
+			buildPhases = (
+				841032CB298104A200193961 /* Sources */,
+				841032CC298104A200193961 /* Frameworks */,
+				841032CD298104A200193961 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				841032D1298104A200193961 /* PBXTargetDependency */,
+			);
+			name = RecordLifeTests;
+			productName = RecordLifeTests;
+			productReference = 841032CF298104A200193961 /* RecordLifeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		841032D8298104A200193961 /* RecordLifeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84103328298104A500193961 /* Build configuration list for PBXNativeTarget "RecordLifeUITests" */;
+			buildPhases = (
+				841032D5298104A200193961 /* Sources */,
+				841032D6298104A200193961 /* Frameworks */,
+				841032D7298104A200193961 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				841032DB298104A200193961 /* PBXTargetDependency */,
+			);
+			name = RecordLifeUITests;
+			productName = RecordLifeUITests;
+			productReference = 841032D9298104A200193961 /* RecordLifeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		841032E2298104A200193961 /* RecordLife WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8410331E298104A500193961 /* Build configuration list for PBXNativeTarget "RecordLife WatchKit App" */;
+			buildPhases = (
+				841032E1298104A200193961 /* Resources */,
+				8410331D298104A500193961 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				841032F4298104A400193961 /* PBXTargetDependency */,
+			);
+			name = "RecordLife WatchKit App";
+			productName = "RecordLife WatchKit App";
+			productReference = 841032E3298104A200193961 /* RecordLife WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		841032F0298104A400193961 /* RecordLife WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8410331A298104A500193961 /* Build configuration list for PBXNativeTarget "RecordLife WatchKit Extension" */;
+			buildPhases = (
+				841032ED298104A400193961 /* Sources */,
+				841032EE298104A400193961 /* Frameworks */,
+				841032EF298104A400193961 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "RecordLife WatchKit Extension";
+			productName = "RecordLife WatchKit Extension";
+			productReference = 841032F1298104A400193961 /* RecordLife WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+		84103305298104A500193961 /* RecordLife WatchKit AppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8410332B298104A500193961 /* Build configuration list for PBXNativeTarget "RecordLife WatchKit AppTests" */;
+			buildPhases = (
+				84103302298104A500193961 /* Sources */,
+				84103303298104A500193961 /* Frameworks */,
+				84103304298104A500193961 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				84103308298104A500193961 /* PBXTargetDependency */,
+			);
+			name = "RecordLife WatchKit AppTests";
+			productName = "RecordLife WatchKit AppTests";
+			productReference = 84103306298104A500193961 /* RecordLife WatchKit AppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8410330F298104A500193961 /* RecordLife WatchKit AppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8410332E298104A500193961 /* Build configuration list for PBXNativeTarget "RecordLife WatchKit AppUITests" */;
+			buildPhases = (
+				8410330C298104A500193961 /* Sources */,
+				8410330D298104A500193961 /* Frameworks */,
+				8410330E298104A500193961 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				84103312298104A500193961 /* PBXTargetDependency */,
+			);
+			name = "RecordLife WatchKit AppUITests";
+			productName = "RecordLife WatchKit AppUITests";
+			productReference = 84103310298104A500193961 /* RecordLife WatchKit AppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		841032B12981049F00193961 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					841032B8298104A000193961 = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					841032CE298104A200193961 = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = 841032B8298104A000193961;
+					};
+					841032D8298104A200193961 = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = 841032B8298104A000193961;
+					};
+					841032E2298104A200193961 = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					841032F0298104A400193961 = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					84103305298104A500193961 = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = 841032F0298104A400193961;
+					};
+					8410330F298104A500193961 = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = 841032E2298104A200193961;
+					};
+				};
+			};
+			buildConfigurationList = 841032B42981049F00193961 /* Build configuration list for PBXProject "RecordLife" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 841032B02981049F00193961;
+			productRefGroup = 841032BA298104A000193961 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				841032B8298104A000193961 /* RecordLife */,
+				841032CE298104A200193961 /* RecordLifeTests */,
+				841032D8298104A200193961 /* RecordLifeUITests */,
+				841032E2298104A200193961 /* RecordLife WatchKit App */,
+				841032F0298104A400193961 /* RecordLife WatchKit Extension */,
+				84103305298104A500193961 /* RecordLife WatchKit AppTests */,
+				8410330F298104A500193961 /* RecordLife WatchKit AppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		841032B7298104A000193961 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				841032C9298104A200193961 /* LaunchScreen.storyboard in Resources */,
+				841032C6298104A200193961 /* Assets.xcassets in Resources */,
+				841032C4298104A000193961 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		841032CD298104A200193961 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		841032D7298104A200193961 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		841032E1298104A200193961 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				841032EC298104A300193961 /* Assets.xcassets in Resources */,
+				841032EA298104A200193961 /* Interface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		841032EF298104A400193961 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				841032FF298104A500193961 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84103304298104A500193961 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8410330E298104A500193961 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		841032B5298104A000193961 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				841032C1298104A000193961 /* ViewController.swift in Sources */,
+				841032BD298104A000193961 /* AppDelegate.swift in Sources */,
+				841032BF298104A000193961 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		841032CB298104A200193961 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				841032D4298104A200193961 /* RecordLifeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		841032D5298104A200193961 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				841032DE298104A200193961 /* RecordLifeUITests.swift in Sources */,
+				841032E0298104A200193961 /* RecordLifeUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		841032ED298104A400193961 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				841032FB298104A400193961 /* NotificationController.swift in Sources */,
+				841032FD298104A400193961 /* ComplicationController.swift in Sources */,
+				841032F9298104A400193961 /* ExtensionDelegate.swift in Sources */,
+				841032F7298104A400193961 /* InterfaceController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84103302298104A500193961 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8410330B298104A500193961 /* RecordLife_WatchKit_AppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8410330C298104A500193961 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84103317298104A500193961 /* RecordLife_WatchKit_AppUITestsLaunchTests.swift in Sources */,
+				84103315298104A500193961 /* RecordLife_WatchKit_AppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		841032D1298104A200193961 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 841032B8298104A000193961 /* RecordLife */;
+			targetProxy = 841032D0298104A200193961 /* PBXContainerItemProxy */;
+		};
+		841032DB298104A200193961 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 841032B8298104A000193961 /* RecordLife */;
+			targetProxy = 841032DA298104A200193961 /* PBXContainerItemProxy */;
+		};
+		841032E6298104A200193961 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 841032E2298104A200193961 /* RecordLife WatchKit App */;
+			targetProxy = 841032E5298104A200193961 /* PBXContainerItemProxy */;
+		};
+		841032F4298104A400193961 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 841032F0298104A400193961 /* RecordLife WatchKit Extension */;
+			targetProxy = 841032F3298104A400193961 /* PBXContainerItemProxy */;
+		};
+		84103308298104A500193961 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 841032F0298104A400193961 /* RecordLife WatchKit Extension */;
+			targetProxy = 84103307298104A500193961 /* PBXContainerItemProxy */;
+		};
+		84103312298104A500193961 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 841032E2298104A200193961 /* RecordLife WatchKit App */;
+			targetProxy = 84103311298104A500193961 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		841032C2298104A000193961 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				841032C3298104A000193961 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		841032C7298104A200193961 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				841032C8298104A200193961 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		841032E8298104A200193961 /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				841032E9298104A200193961 /* Base */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		84103318298104A500193961 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		84103319298104A500193961 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		8410331B298104A500193961 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "RecordLife WatchKit Extension/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "RecordLife WatchKit Extension";
+				INFOPLIST_KEY_CLKComplicationPrincipalClass = "$(PRODUCT_MODULE_NAME).ComplicationController";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_WKExtensionDelegateClassName = "$(PRODUCT_MODULE_NAME).ExtensionDelegate";
+				INFOPLIST_KEY_WKRunsIndependentlyOfCompanionApp = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.VoyagerShaw.RecordLife.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 8.5;
+			};
+			name = Debug;
+		};
+		8410331C298104A500193961 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "RecordLife WatchKit Extension/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "RecordLife WatchKit Extension";
+				INFOPLIST_KEY_CLKComplicationPrincipalClass = "$(PRODUCT_MODULE_NAME).ComplicationController";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_WKExtensionDelegateClassName = "$(PRODUCT_MODULE_NAME).ExtensionDelegate";
+				INFOPLIST_KEY_WKRunsIndependentlyOfCompanionApp = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.VoyagerShaw.RecordLife.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 8.5;
+			};
+			name = Release;
+		};
+		8410331F298104A500193961 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IBSC_MODULE = RecordLife_WatchKit_Extension;
+				INFOPLIST_KEY_CFBundleDisplayName = "RecordLife WatchKit App";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = com.VoyagerShaw.RecordLife;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.VoyagerShaw.RecordLife.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 8.5;
+			};
+			name = Debug;
+		};
+		84103320298104A500193961 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IBSC_MODULE = RecordLife_WatchKit_Extension;
+				INFOPLIST_KEY_CFBundleDisplayName = "RecordLife WatchKit App";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = com.VoyagerShaw.RecordLife;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.VoyagerShaw.RecordLife.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 8.5;
+			};
+			name = Release;
+		};
+		84103323298104A500193961 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = RecordLife/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.VoyagerShaw.RecordLife;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		84103324298104A500193961 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = RecordLife/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.VoyagerShaw.RecordLife;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		84103326298104A500193961 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.VoyagerShaw.RecordLifeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RecordLife.app/RecordLife";
+			};
+			name = Debug;
+		};
+		84103327298104A500193961 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.VoyagerShaw.RecordLifeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RecordLife.app/RecordLife";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		84103329298104A500193961 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.VoyagerShaw.RecordLifeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = RecordLife;
+			};
+			name = Debug;
+		};
+		8410332A298104A500193961 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.VoyagerShaw.RecordLifeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = RecordLife;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8410332C298104A500193961 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.VoyagerShaw.RecordLife-WatchKit-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RecordLife WatchKit Extension.appex/RecordLife WatchKit Extension";
+				WATCHOS_DEPLOYMENT_TARGET = 8.5;
+			};
+			name = Debug;
+		};
+		8410332D298104A500193961 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.VoyagerShaw.RecordLife-WatchKit-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RecordLife WatchKit Extension.appex/RecordLife WatchKit Extension";
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 8.5;
+			};
+			name = Release;
+		};
+		8410332F298104A500193961 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.VoyagerShaw.RecordLife-WatchKit-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "RecordLife WatchKit App";
+				WATCHOS_DEPLOYMENT_TARGET = 8.5;
+			};
+			name = Debug;
+		};
+		84103330298104A500193961 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.VoyagerShaw.RecordLife-WatchKit-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "RecordLife WatchKit App";
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 8.5;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		841032B42981049F00193961 /* Build configuration list for PBXProject "RecordLife" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84103318298104A500193961 /* Debug */,
+				84103319298104A500193961 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8410331A298104A500193961 /* Build configuration list for PBXNativeTarget "RecordLife WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8410331B298104A500193961 /* Debug */,
+				8410331C298104A500193961 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8410331E298104A500193961 /* Build configuration list for PBXNativeTarget "RecordLife WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8410331F298104A500193961 /* Debug */,
+				84103320298104A500193961 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84103322298104A500193961 /* Build configuration list for PBXNativeTarget "RecordLife" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84103323298104A500193961 /* Debug */,
+				84103324298104A500193961 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84103325298104A500193961 /* Build configuration list for PBXNativeTarget "RecordLifeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84103326298104A500193961 /* Debug */,
+				84103327298104A500193961 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84103328298104A500193961 /* Build configuration list for PBXNativeTarget "RecordLifeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84103329298104A500193961 /* Debug */,
+				8410332A298104A500193961 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8410332B298104A500193961 /* Build configuration list for PBXNativeTarget "RecordLife WatchKit AppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8410332C298104A500193961 /* Debug */,
+				8410332D298104A500193961 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8410332E298104A500193961 /* Build configuration list for PBXNativeTarget "RecordLife WatchKit AppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8410332F298104A500193961 /* Debug */,
+				84103330298104A500193961 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 841032B12981049F00193961 /* Project object */;
+}
